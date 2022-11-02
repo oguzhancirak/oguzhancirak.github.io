@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+#myNavbar ul li a {
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-size: larger;
+    font-weight: bolder;
+    
+
+   
+
+
+
+}
+#myNavbar ul li a:hover {
+    background-color: black;
+    color: white;
+    height: 55px;
+
+   
+
+
+
+}
+
+#myNavbar {
+   
+    text-align: start;
+    
+    height:8rem;
+    width: 100%;
+    padding: 0;
+    margin-top:0;
+
+   background-color:rgba(255, 255, 255, 0.7);
+    -webkit-transform: skew(0deg); 
+    -moz-transform: skew(0deg); 
+    -o-transform: skew(0deg);
+    transform: skew(-10deg);
+  
+    
+   
+    
+
+
+}
+
+nav ul li .nav-link:active {
+    background-color: red;
+}
+
+.arka {
+    background-image: url('images/Sarimsakli-oto-elektrik-ustasi.jpg');
+    background-repeat: no-repeat;
+    width: 105%;
+    height: 60vh;
+    background-size: cover;
+
+}
+
+
+
+.col #bas {
+    position: absolute;
+    display: block;
+    top: 20%;
+    left: 50%;
+    font-family: 'Island Moments', cursive;
+}
+
+
+
+#yanMenu {
+    background-color: rgb(0, 0, 0,0.7);
+    height: 100px;
+    display: block;
+    float: left;
+    width: 500px;
+    padding: 5%;
+    text-align: end;
+    -webkit-transform: skew(-20deg); 
+    -moz-transform: skew(-20deg); 
+    -o-transform: skew(-20deg);
+    transform: skew(-10deg);
+    color: white;
+   
+
+
+}
+
+
+@media (max-width:1000px) {
+    
+   
+    #yanMenu{
+        height: 100px;
+        width: auto;
+        display: flex;
+    
+        top: 30%;
+        
+    
+    
+    
+    }
+    #yanMenu h6 i{
+        display: flex;
+        
+        
+    }
+    nav #btn1{
+     
+        display: flex;
+        justify-content: end;
+        text-align: end;
+        /* height: 200px;
+        background-color: white;
+        border-radius: 10px;
+        transform: rotate(0deg); */
+    
+    }
+    nav #btn1 button{
+     
+        background-color:rgba(255, 255, 255, 0.5);
+        margin: 0;
+
+    }
+    
+    
+    
+    
+    
+}
+ #yanMenu h6 i:hover{
+    background-color:rgb(255, 0, 0);
+    color: black;
+   
+        
+        
+    }
+    
+@media (max-width:1200px) {
+    #yanMenu{
+    height: 100px;
+    width: auto;
+    display: flex;
+
+    top: 30%;
+    
+    
+    }
+    #yanMenu h6{
+        display: flex;
+        margin-top: 28%;
+        width: min-content;
+        padding-right:5px;
+        
+    }
+    
+    
+
+}
+#cardRan{
+    display: block;
+    width: 8rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+    z-index: 10;
+    height: 5rem;
+    opacity: 0.5;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+  
+    
+    
+    
+
+}
+#cardRan:hover{
+    width: 20rem;
+    height: fit-content;
+    opacity: 1;
+    border: 1px solid rgb(29, 248, 29);
+    margin-left: 7px;
+   
+}
+#cardRan #form1{
+
+    overflow: hidden;
+    z-index: 10;
+    
+    
+
+} 
+#enUst{
+    display: flex;
+    justify-content: end;
+    padding-right:50px ;
+    background: rgba(255, 251, 251)
+    
+}
+.card{
+    width:20rem;
+    margin-top: 10%;
+    
+}
+
+.card:hover{
+   
+    
+    z-index: 10;
+    opacity:0.8 ;
+    color: black;
+    height:25rem;
+  
+}
+footer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+@media (min-width:500px) {
+    footer nav ul{
+    height: 20px;
+    flex-wrap: wrap;   
+    
+    }
+    footer nav ul li{
+        padding: 5px; 
+    
+        
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+           
+        }
+}
+
+
