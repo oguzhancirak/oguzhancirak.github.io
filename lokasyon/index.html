@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <style>
+    /* anasayfa */
+    .feature-icon {
+      width: 4rem;
+      height: 4rem;
+      border-radius: .75rem;
+    }
+
+    .icon-link>.bi {
+      margin-top: .125rem;
+      margin-left: .125rem;
+      fill: currentcolor;
+      transition: transform .25s ease-in-out;
+    }
+
+    .icon-link:hover>.bi {
+      transform: translate(.25rem);
+    }
+
+    .icon-square {
+      width: 3rem;
+      height: 3rem;
+      border-radius: .75rem;
+    }
+
+    .text-shadow-1 {
+      text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
+    }
+
+    .text-shadow-2 {
+      text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25);
+    }
+
+    .text-shadow-3 {
+      text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25);
+    }
+
+    .card-cover {
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+
+    .feature-icon-small {
+      width: 3rem;
+      height: 3rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img class="bi me-2" width="40px" height="40px"
+          src="images/logo.png"></img>NeosHouse</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+        aria-controls="offcanvasNavbar2">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-ligt" tabindex="-1" id="offcanvasNavbar2"
+        aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbar2Label"><img class="bi me-2" width="40px" height="40px"
+              src="img/logo.png"></img>NeosHouse</h5>
+          <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Anasayfa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="neden-biz.html">Neden Biz?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="lokasyonlar.html">Lokasyonlar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="iletisim.html">İletişim</a>
+            </li>
+          </ul>
+          <div class="d-flex mt-3 mt-lg-0">
+            <a class="btn btn-outline-success" type="submit" href="iletisim.html">Fiyat Al!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container ">
+    <div class="row">
+      <div class="col text-center " style="height: 900px;">
+        <div class="d-flex m-0 p-0 position-absolute" style="width: max-content;left:0 ; ">
+          <div>
+            <button class="btn btn-danger btn-lg d-flex position-absolute "
+              style="margin-top: 30%;margin-left:50%;">konumlarımız</button>
+          </div>
+
+          <img class="img-fluid d-flex  ms-0" src="images/business-location.jpeg" width="1730vh" height="100%">
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container ">
+    <div class="row gy-5 ">
+      <div class="col location1">
+        <img src="images/Maslak_kerembarut.jpg" width="100%" class="rounded-bottom">
+      </div>
+      <div class="col location1text">
+        <h1>maslak konum</h1>
+        <p>iletişim....</p>
+      </div>
+      <hr class="fs-1">
+
+      <div class="row">
+        <div class="col location2">
+          <h1>maslak konum</h1>
+          <p>iletişim....</p>
+        </div>
+        <div class="col location2text">
+
+          <img src="images/Maslak_kerembarut.jpg" width="100%" class="rounded-bottom">
+        </div>
+
+      </div>
+      <hr>
+
+    </div>
+    <div class="row">
+      <div class="col location3">
+        <img src="images/Maslak_kerembarut.jpg" width="100%" class="rounded-bottom">
+      </div>
+      <div class="col location3text">
+        <h1>maslak konum</h1>
+        <p>iletişim....</p>
+      </div>
+
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col location4" >
+        <h1>maslak konum</h1>
+        <p>iletişim....</p>
+      </div>
+      <div class="col location4text">
+
+        <img src="images/Maslak_kerembarut.jpg" width="100%" class="rounded-bottom" >
+      </div>
+
+    </div>
+    <hr>
+    <div class="row g-5">
+      <div class="col location5 ">
+        <img src="images/Maslak_kerembarut.jpg" width="100%" class="rounded-bottom">
+      </div>
+      <div class="col location5text">
+        <h1>maslak konum</h1>
+        <p>iletişim....</p>
+      </div>
+      <hr>
+
+    </div>
+
+
+  </div>
+
+  <footer class="container-fluid mt-5 py-5 mt-auto text-dark-50">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Menü</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Anasayfa</a></li>
+          <li class="nav-item mb-2"><a href="neden-biz.html" class="nav-link p-0 text-muted">Neden Biz?</a></li>
+          <li class="nav-item mb-2"><a href="lokasyonlar.html" class="nav-link p-0 text-muted">Lokasyonlar</a></li>
+          <li class="nav-item mb-2"><a href="iletisim.html" class="nav-link p-0 text-muted">İletişim</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Lokasyonlar</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="lokasyonlar.html#maslak" class="nav-link p-0 text-muted">Maslak</a></li>
+          <li class="nav-item mb-2"><a href="lokasyonlar.html#atasehir" class="nav-link p-0 text-muted">Ataşehir</a>
+          </li>
+          <li class="nav-item mb-2"><a href="lokasyonlar.html#maltepe" class="nav-link p-0 text-muted">Maltepe</a></li>
+          <li class="nav-item mb-2"><a href="lokasyonlar.html#levent" class="nav-link p-0 text-muted">Levent</a></li>
+          <li class="nav-item mb-2"><a href="lokasyonlar.html#besiktas" class="nav-link p-0 text-muted">Beşiktaş</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3"></div>
+
+      <div class="col-md-5 offset-md-1 mb-3 text-dark">
+        <form>
+          <h5>İletişimi Koparma!</h5>
+          <p>Kampanyalarımız ve Yeni Lokasyonlarımızdan Haberdar Olmak İçin Eposta Adresinizi Bizimle Paylaşın.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">E-Posta Adresin</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="E-Posta Adresin">
+            <button class="btn btn-success" type="button">Gönder</button>
+          </div>
+        </form>
+        <br>
+        <div style="text-align: center;">
+          <a class="btn btn-lg btn-success" href="https://twitter.com/oguzhnkrdg" target="_blank"><i
+              class="fa fa-twitter"></i></a>
+          <a class="btn btn-lg btn-success" href="https://www.instagram.com/oguzhnkrdg/" target="_blank"><i
+              class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-dark">
+      <p>&copy; 2022 NeosHouse. Tüm Hakları Saklıdır.</p>
+    </div>
+  </footer>
+  <!-- footer -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="myJs.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    ScrollReveal().reveal('.location1', {
+      delay: 800,
+      inerval: 20,
+      reset: true
+
+    });
+    ScrollReveal().reveal('.location1text', {
+      delay: 1000,
+      inerval: 20,
+      reset: true
+
+    });
+    ScrollReveal().reveal('.location2', {
+      delay: 1000,
+      inerval: 20,
+      reset: true
+
+    });
+    ScrollReveal().reveal('.location2text', {
+      delay: 1200,
+      inerval: 20,
+      reset: true
+
+    });
+    ScrollReveal().reveal('.location3', {
+      delay: 1200,
+      inerval: 20,
+      reset: true
+
+    });
+    ScrollReveal().reveal('.location3text', {
+      delay: 1400,
+      inerval: 20,
+      reset: true
+
+    });
+    ScrollReveal().reveal('.location4', {
+      delay: 1600,
+      inerval: 20,
+      reset: true
+
+    });
+    ScrollReveal().reveal('.location4text', {
+      delay: 1800,
+      inerval: 20,
+      reset: true
+
+    });
+    ScrollReveal().reveal('.location5', {
+      delay: 1600,
+      inerval: 20,
+      reset: true
+
+    });
+    ScrollReveal().reveal('.location5text', {
+      delay: 1800,
+      inerval: 20,
+      reset: true
+
+    });
+    ScrollReveal().reveal('.location6', {
+      delay: 1800,
+      inerval: 20,
+      reset: true
+
+    });
+    ScrollReveal().reveal('.location6text', {
+      delay: 2000,
+      inerval: 20,
+      reset: true
+
+    });
+  </script>
+</body>
+
+</html>
